@@ -1,0 +1,15 @@
+button{
+    font-size: 1.4rem;
+    border-radius: 10px;
+    margin: 12px;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
