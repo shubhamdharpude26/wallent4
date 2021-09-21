@@ -1,7 +1,7 @@
 var express = require('express');
 const path = require("path");
 var app = express();
-var port = 8080;
+var port = process.env.PORT || 8080;
 app.use(express.static(path.join(__dirname, 'public')));
 // start the server
 app.listen(port, function() {
